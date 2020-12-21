@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: nanasess/setup-chromedriver@master
+      - run: sudo apt-get install google-chrome-stable
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
