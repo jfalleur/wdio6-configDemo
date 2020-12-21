@@ -3,14 +3,13 @@
 Get started with Applitools Ultrafast Test Grid with this example of using the ClassicRunner from the Applitools Webdriver SDK.
 
 ## Pre-Requisites
-1. Selenium Standalone Server (<https://www.seleniumhq.org/download/>)
-2. Chrome Webdriver is on your machine and is in the PATH
+1. Chrome Webdriver is on your machine and is in the PATH
     * Download the latest Chrome Webdriver https://chromedriver.chromium.org/
     * Setting it up (skip the download): https://splinter.readthedocs.io/en/0.1/setup-chrome.html
     * Or install with Homebrew: https://stackoverflow.com/questions/38081021/using-selenium-on-mac-chrome
     * Install on Windows: https://www.youtube.com/watch?v=dz59GsdvUF8 
-3. Node.js (<https://nodejs.org/en/>)
-4. Applitools API key
+2. Node.js (<https://nodejs.org/en/>)
+3. Applitools API key
     * Login to Applitools > Click on the Person icon > My API Key
 
 ## Getting Started
@@ -18,8 +17,8 @@ Get started with Applitools Ultrafast Test Grid with this example of using the C
 ### Running the Example Project
 1. Clone or download the repository and navigate to that folder
 ```
-git clone https://github.com/applitools/tutorial-webdriverio6-basic
-cd tutorial-webdriverio6-basic
+git clone https://github.com/applitools/tutorial-webdriverio6-ultrafastgrid
+cd tutorial-webdriverio6-ultrafastgrid
 ```
 *Note: you can alternatively download the project as a Zip file and extract it*
 
@@ -28,13 +27,7 @@ cd tutorial-webdriverio6-basic
 npm install
 ```
 
-3. Start the Selenium Server (jar file)
-```
-java -jar ./path/to/selenium-server-standalone.jar
-```
-*This will run Selenium on localhost and on port 4444*
-
-4. Run the example test
+3. Run the example test
 ```
 APPLITOOLS_API_KEY="[Your API Key]" npm test
 ```
