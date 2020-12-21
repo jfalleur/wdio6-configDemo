@@ -17,14 +17,14 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - run: sudo apt-get install google-chrome-stable
-
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
 
       - run: npm ci
+
+      - run: npm install chromedriver@81.0.0
 
       - run: npm test
         env: 
