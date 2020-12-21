@@ -49,17 +49,6 @@ describe('ACME Demo App - wdio6', function () {
     // create a new batch info instance and set it to the configuration
 
     configuration.setBatch(new BatchInfo('Ultrafast Batch'))
-
-    configuration.addBrowser(800, 600, BrowserType.CHROME);
-    configuration.addBrowser(700, 500, BrowserType.FIREFOX);
-    configuration.addBrowser(1600, 1200, BrowserType.IE_11);
-    configuration.addBrowser(1024, 768, BrowserType.EDGE_CHROMIUM);
-    configuration.addBrowser(800, 600, BrowserType.SAFARI);
-
-    // Add mobile emulation devices in Portrait mode
-
-    configuration.addDeviceEmulation(DeviceName.iPhone_X, ScreenOrientation.PORTRAIT);
-    configuration.addDeviceEmulation(DeviceName.Pixel_2, ScreenOrientation.PORTRAIT);
   });
   
   
