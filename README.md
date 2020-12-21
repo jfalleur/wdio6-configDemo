@@ -17,8 +17,8 @@ Get started with Applitools Ultrafast Test Grid with this example of using the C
 ### Running the Example Project
 1. Clone or download the repository and navigate to that folder
 ```
-git clone https://github.com/applitools/tutorial-webdriverio6-ultrafastgrid
-cd tutorial-webdriverio6-ultrafastgrid
+git clone https://github.com/applitools/tutorial-webdriverio6-basic
+cd tutorial-webdriverio6-basic
 ```
 *Note: you can alternatively download the project as a Zip file and extract it*
 
