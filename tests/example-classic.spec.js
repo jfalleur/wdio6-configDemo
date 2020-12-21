@@ -48,7 +48,7 @@ describe('ACME Demo App - wdio6', function () {
     
     // create a new batch info instance and set it to the configuration
 
-    configuration.setBatch(new BatchInfo('Ultrafast Batch'))
+    configuration.setBatch(new BatchInfo('Classic Batch'))
   });
   
   
@@ -66,7 +66,7 @@ describe('ACME Demo App - wdio6', function () {
     browser = await eyes.open(browser);
   });
   
-  it('ultraFastTest', async () => {
+  it('classicTest', async () => {
     // Navigate to the url we want to test
 
     await browser.url('https://demo.applitools.com');
