@@ -48,7 +48,7 @@ describe('ACME Demo App - wdio6', function () {
     
     // create a new batch info instance and set it to the configuration
 
-    configuration.setBatch(new BatchInfo('Classic Batch'))
+    configuration.setBatch(new BatchInfo('Classic Batch - wdio6'))
   });
   
   
