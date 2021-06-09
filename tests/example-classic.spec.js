@@ -48,16 +48,13 @@ describe('ACME Demo App - wdio6', function () {
     
     // create a new batch info instance and set it to the configuration
 
-    configuration.setBatch(new BatchInfo('Classic Batch - wdio6'))
+    configuration.setBatch(new BatchInfo('Demo Batch - WDIO 6 - Classic'))
   });
   
   
   beforeEach(async function () {
-    const appName = await this.test.parent.title;
-    const testName = await this.currentTest.title;
-
-    configuration.setAppName(appName);
-    configuration.setTestName(testName);
+    configuration.setAppName('Demo App - WDIO 6 - Classic');
+    configuration.setTestName('Smoke Test - WDIO 6 - Classic');
     
     // Set the configuration to eyes
 
