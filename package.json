@@ -13,7 +13,7 @@
     "chromedriver": "^93.0.1"
   },
   "devDependencies": {
-    "@applitools/eyes-webdriverio": "^5.32.3",
+    "@applitools/eyes-webdriverio": "^5.32.4",
     "@wdio/cli": "^7.12.2",
     "@wdio/dot-reporter": "^7.10.1",
     "@wdio/local-runner": "^7.12.2",
