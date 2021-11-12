@@ -17,7 +17,7 @@ const {
 
 describe('ACME Demo App - wdio6', function () {
     
-  it('it 1', async () => {
+  it('it 2', async () => {
     // Navigate to the url we want to test
     //await eyes.open(browser,"Test", "Test");
     await browser.url('https://demo.applitools.com');
